@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function () {
   return (
     <div className="Footer">
-      <div className="col">
-        <Link to="/" className="logo">
+      {/*       <div className="col">
+                <Link to="/" className="logo">
           <img
             src={process.env.PUBLIC_URL + "/img/logo2.png"}
             width={100}
@@ -13,7 +13,7 @@ export default function () {
             alt="Logo"
           />
         </Link>
-      </div>
+      </div> */}
       <div className="col">
         <p>Copywrite © 2023 by Pixel Mate</p>
       </div>
